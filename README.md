@@ -1,2 +1,0 @@
-# dirter
-naver.me
