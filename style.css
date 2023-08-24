@@ -31,7 +31,7 @@ div {
   padding: 1px;
   background-color: #fff;
 
-  border: 1px solid #005eff;
+  border: 1px solid #0084ff;
   -webkit-border-radius: 26px;
   border-radius: 26px;
   -webkit-box-shadow: 0 5px 10px 0 rgba(117,145,181,.12);
@@ -43,7 +43,7 @@ div {
 .dirter {
   font-family: 'Pretendard-Black';
   font-size:100px; 
-	color:#005eff;
+	color:#0084ff;
   text-shadow: 0 5px 10px 0 rgba(117,145,181,.12);
 }
 
