@@ -10,7 +10,7 @@
 }
 
 div {
-    display: block;
+  display: block;
 }
 
 #loading {
@@ -43,6 +43,7 @@ div {
 .dirter {
   font-family: 'Pretendard-Black';
   font-size:100px; 
+	color:#005eff;
   text-shadow: 0 5px 10px 0 rgba(117,145,181,.12);
 }
 
