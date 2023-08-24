@@ -1,13 +1,15 @@
 @font-face {
-    font-family: 'FontAwesome';
-    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
-    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
-    font-weight: normal;
-    font-style: normal
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./font/NotoSansKR-Black.woff2') format('woff2'),
+  url('./font/NotoSansKR-Black.woff') format('woff'),
+	url('./font/NotoSansKR-Black.otf') format('opentype');
+	font-display: swap;
 }
 
 * {
-	font-family: "FontAwesome", sans-serif;
+	font-family: "Noto Sans KR";
 }
 
 div {
@@ -42,7 +44,6 @@ div {
 }
 
 .dirter {
-  font-family: 'Noto Sans KR', dotum, sans-serif;
   font-size:100px; 
 	color:#0084ff;
   text-shadow: 0 5px 10px 0 rgba(117,145,181,.12);
