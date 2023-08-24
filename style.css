@@ -42,7 +42,7 @@ div {
 }
 
 .dirter {
-  font-family: 'Pretendard-Black';
+  font-family: 'Noto Sans KR', dotum, sans-serif;
   font-size:100px; 
 	color:#0084ff;
   text-shadow: 0 5px 10px 0 rgba(117,145,181,.12);
