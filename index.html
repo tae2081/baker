@@ -10,17 +10,12 @@
 </head>
 
 <body>
-  <center>
-    <br><br><br><br><br><br><br><br><br>
-    <strong class='dirter'>Baker</strong>
-    <br><br><br>
-    <div class='search'>
-      <div class='box'>
-        <image class='icon' src='/image/icon.png'>
-          <input class='input' placeholder="단축할 링크를 입력해주세요.">
-      </div>
-    </div>
-  </center>
+  <div class='wrapper'>
+    <form action='shorten.php'>
+      <input id='url' placeholder='단축할 링크를 입력해주세요.'>
+      <input type='submit' value='URL 단축'>
+    </form>
+  </div>
   <script src="script.js"></script>
 </body>
 
