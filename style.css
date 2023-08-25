@@ -2,6 +2,7 @@ body{
     width: 100%;
     height: auto;
     background:url('https://playentry.org/uploads/l3/gl/l3gl9mmfllqdat3t1pw47ec049gdcb3r.png') no-repeat center;
+    background-size:cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
