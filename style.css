@@ -1,14 +1,11 @@
 body{
+    width:100%;
+    height:100%;
     background:url('https://playentry.org/uploads/4d/jk/4djkb7qbllqchtjb0wo67ec049b8fxen.png');
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.bg {
-    width:100%;
-    height:100%;
 }
 
 .wrapper{ 
