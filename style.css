@@ -1,7 +1,7 @@
 body{
-    height: 100vh;
-    background-size: cover;
-    background:url('https://playentry.org/uploads/4d/jk/4djkb7qbllqchtjb0wo67ec049b8fxen.png') no-repeat center;
+    width: 100%;
+    height: auto;
+    background:url('https://playentry.org/uploads/l3/gl/l3gl9mmfllqdat3t1pw47ec049gdcb3r.png') no-repeat center;
     display: flex;
     flex-direction: column;
     justify-content: center;
