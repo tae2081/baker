@@ -1,6 +1,8 @@
 var input = document.querySelector('.input');
 var inputValue;
 
+document.querySelector(".copied").style.visibility ='hidden';
+
 if (document.querySelector('.input')) {
   input.addEventListener('change', function() {
     inputValue = input.value;
@@ -13,16 +15,6 @@ if (document.querySelector('.input')) {
 }
 
 async function generate(url) {
-  document.querySelector('.search').remove()
-  document.querySelector('.dirter').remove()
-  
-  var loading = document.createElement('h1');
-  var wrap = document.createElement('div');
-  loading.textContent = '변환 중...';
-  loading.id = 'loading';
-  wrap.id = 'wrapper';
-  wrap.appendChild(loading)
-  
   document.title = "변환 중...";
   
   const res = await fetch(`https://naverapi.deepl.repl.co/shorten?url=${url}`)
@@ -34,7 +26,5 @@ async function generate(url) {
   console.log(j.result.data)
 
   await navigator.clipboard.writeText(j.result.data);
-  alert(`${j.result.data}가 클립보드에 복사됨`);
-  
-  location.href = 'https://dirter.deepl.repl.co'
+  document.querySelector(".copied").style.visibility ='visible';
 };
