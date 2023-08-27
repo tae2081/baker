@@ -41,6 +41,7 @@ div {
 }
 
 .copied {
+	text-align:left;
 	position: absolute;
 	width: 495px;
   height: 30px;
@@ -55,7 +56,8 @@ div {
 }
 
 .copiedText {
-	text-align:left;
+	margin-top:18px;
+	font-size:14px;
 	visibility:hidden;
   content: '';
   display: inline-block;
