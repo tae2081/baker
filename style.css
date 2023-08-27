@@ -53,13 +53,6 @@ div {
 	margin-top:10px;
 }
 
-.copied::before {
-  content: '링크가 복사되었어요!';
-  display: inline-block;
-  margin-left: 10px; 
-	margin-top:5px;
-}
-
 .dirter {
   font-family: 'Pretendard-Black';
   font-size:100px; 
