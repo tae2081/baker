@@ -54,6 +54,7 @@ div {
 }
 
 .copiedText {
+	visibility:hidden;
   content: '';
   display: inline-block;
   margin-left: 20px;
