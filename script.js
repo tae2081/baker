@@ -1,10 +1,5 @@
 var input = document.querySelector('.input');
-var logo = document.querySelector('.dirter');
 var inputValue;
-
-logo.addEventListener('click', function() {
-  location.href = location.href;
-})
 
 input.addEventListener('change', function() {
   inputValue = input.value;
