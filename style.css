@@ -44,12 +44,16 @@ div {
 	width: 500px;
   height: 30px;
   padding: 1px;
-  background-color: #00db3e;
+  background-color:#028700;
 	color:#fff;
 	text-align:left;
-	margin-left:10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  border-radius: 8px;
+}
+
+.copied::before {
+  content: '링크가 복사되었어요!'; /* 텍스트 내용을 설정합니다 */
+  display: inline-block; /* 인라인 블록 요소로 표시합니다 */
+  margin-left: 10px; /* 원하는 음수 여백 크기로 조정합니다 (div의 margin-left의 반대 방향으로) */
 }
 
 .dirter {
