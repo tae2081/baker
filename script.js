@@ -25,5 +25,6 @@ async function generate(url) {
 
   await navigator.clipboard.writeText(j.result.data);
   document.querySelector(".copiedText").textContent=`${j.result.data} 링크가 복사되었어요!`;
+  document.querySelector(".copiedText").style.visibility ='visible';
   document.querySelector(".copied").style.visibility ='visible';
 };
