@@ -40,6 +40,15 @@ div {
   box-sizing: border-box;
 }
 
+.copied {
+	width: 500px;
+  height: 52px;
+  padding: 1px;
+  background-color: #00db3e;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
 .dirter {
   font-family: 'Pretendard-Black';
   font-size:100px; 
