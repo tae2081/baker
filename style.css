@@ -55,8 +55,6 @@ div {
 }
 
 .copiedText {
-	position: relative;
-  z-index: 1;
 	visibility:hidden;
   content: '';
   display: inline-block;
