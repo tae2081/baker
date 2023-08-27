@@ -46,7 +46,7 @@ div {
   padding: 1px;
   background-color:#fff;
 	color:#000;
-	visibility:visible;
+	visibility:hidden;
   border: 1px solid #000000;
 	text-align:left;
   border-radius: 8px;
