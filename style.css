@@ -56,6 +56,8 @@ div {
 }
 
 .copiedText {
+	top:6px;
+	position:absolute;
 	font-size:14px;
 	visibility:hidden;
   content: '';
