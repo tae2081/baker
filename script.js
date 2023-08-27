@@ -1,14 +1,16 @@
 var input = document.querySelector('.input');
 var inputValue;
 
-input.addEventListener('change', function() {
-  inputValue = input.value;
-  if (!inputValue.includes('http')) {
-    generate('https://' + inputValue)
-  } else {
-    generate(inputValue)
-  }
-});
+if (document.querySelector('.input')) {
+  input.addEventListener('change', function() {
+    inputValue = input.value;
+    if (!inputValue.includes('http')) {
+      generate('https://' + inputValue)
+    } else {
+      generate(inputValue)
+    }
+  });
+}
 
 async function generate(url) {
   document.querySelector('.search').remove()
