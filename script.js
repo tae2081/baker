@@ -26,5 +26,6 @@ async function generate(url) {
   console.log(j.result.data)
 
   await navigator.clipboard.writeText(j.result.data);
+  document.querySelector(".copied").textContent=`${j.result.data} 링크가 복사되었어요!`;
   document.querySelector(".copied").style.visibility ='visible';
 };
