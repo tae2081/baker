@@ -44,9 +44,9 @@ div {
 	width: 500px;
   height: 30px;
   padding: 1px;
-  background-color:#fff;
-	border: 1px solid #04ff00;
-	color:#000;
+  background-color:#03bf00;
+	color:#fff;
+	visibility ='visible';
 	text-align:left;
   border-radius: 8px;
 	margin-top:10px;
