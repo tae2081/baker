@@ -25,7 +25,6 @@ div {
 }
 
 .box {
-	text-align:left;
   position: relative;
   width: 500px;
   height: 52px;
@@ -56,7 +55,7 @@ div {
 }
 
 .copiedText {
-	z-index:1;
+	text-align:left;
 	visibility:hidden;
   content: '';
   display: inline-block;
