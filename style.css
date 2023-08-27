@@ -45,7 +45,7 @@ div {
 	width: 495px;
   height: 30px;
   padding: 1px;
-  background-color:#fff;
+  background-color:transparent;
 	color:#000;
 	visibility:hidden;
   border: 1px solid #000000;
