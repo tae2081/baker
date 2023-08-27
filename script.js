@@ -1,8 +1,6 @@
 var input = document.querySelector('.input');
 var inputValue;
 
-document.querySelector(".copied").style.visibility ='hidden';
-
 if (document.querySelector('.input')) {
   input.addEventListener('change', function() {
     inputValue = input.value;
