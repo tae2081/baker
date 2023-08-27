@@ -33,7 +33,7 @@ div {
 
   border: 1px solid #000000;
   -webkit-border-radius: 26px;
-  border-radius: 26px;
+  border-radius: 10px;
   -webkit-box-shadow: 0 5px 10px 0 rgba(117,145,181,.12);
   box-shadow: 0 5px 10px 0 rgba(117,145,181,.12);
   -webkit-box-sizing: border-box;
