@@ -53,6 +53,12 @@ div {
 	margin-top:10px;
 }
 
+.copiedText {
+  content: '';
+  display: inline-block;
+  margin-left: 20px;
+}
+
 .dirter {
   font-family: 'Pretendard-Black';
   font-size:100px; 
