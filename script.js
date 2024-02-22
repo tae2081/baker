@@ -15,7 +15,7 @@ if (document.querySelector('.input')) {
 async function generate(url) {
   document.title = "변환 중...";
   
-  const res = await fetch(`https://naverapi.deepl.repl.co/shorten?url=${url}`)
+  const res = await fetch(`https://804ec8f1-848f-49d9-aaea-07a965c091db-00-3bvyatrv793hm.riker.replit.dev/shorten?url=${url}`)
   
   document.title = "변환 완료";
 
